@@ -2,8 +2,7 @@
 
 A Space Invaders type game where your spaceship has to shoot back your enemies.
 
-![картинка](https://drive.google.com/file/d/0B6-CktHgK2RFMXdsRTd5Y3pHUTA/preview
-)
+![картинка](https://image.ibb.co/gk1Vy6/1.png)
 
 Plan:
 
