@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE75A9901FC32095001B534F /* explosionSoundEffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE75A98F1FC32095001B534F /* explosionSoundEffect.wav */; };
+		CE75A9921FC322F4001B534F /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE75A9911FC322F4001B534F /* theboldfont.ttf */; };
 		CE8B1F781FB07A8900A8F9A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B1F771FB07A8900A8F9A5 /* AppDelegate.swift */; };
 		CE8B1F7A1FB07A8900A8F9A5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE8B1F791FB07A8900A8F9A5 /* GameScene.sks */; };
 		CE8B1F7C1FB07A8900A8F9A5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE8B1F7B1FB07A8900A8F9A5 /* Actions.sks */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE75A98F1FC32095001B534F /* explosionSoundEffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosionSoundEffect.wav; sourceTree = "<group>"; };
+		CE75A9911FC322F4001B534F /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
 		CE8B1F741FB07A8900A8F9A5 /* Space Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8B1F771FB07A8900A8F9A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8B1F791FB07A8900A8F9A5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				CE8B1F7D1FB07A8900A8F9A5 /* GameScene.swift */,
 				CE8B1F7F1FB07A8900A8F9A5 /* GameViewController.swift */,
 				CE8B1FAB1FB08F1800A8F9A5 /* bulletSoundEffect.wav */,
+				CE75A98F1FC32095001B534F /* explosionSoundEffect.wav */,
+				CE75A9911FC322F4001B534F /* theboldfont.ttf */,
 				CE8B1F811FB07A8900A8F9A5 /* Main.storyboard */,
 				CE8B1F841FB07A8900A8F9A5 /* Assets.xcassets */,
 				CE8B1F861FB07A8900A8F9A5 /* LaunchScreen.storyboard */,
@@ -244,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE75A9901FC32095001B534F /* explosionSoundEffect.wav in Resources */,
 				CE8B1F831FB07A8900A8F9A5 /* Main.storyboard in Resources */,
 				CE8B1F7A1FB07A8900A8F9A5 /* GameScene.sks in Resources */,
 				CE8B1F851FB07A8900A8F9A5 /* Assets.xcassets in Resources */,
+				CE75A9921FC322F4001B534F /* theboldfont.ttf in Resources */,
 				CE8B1F881FB07A8900A8F9A5 /* LaunchScreen.storyboard in Resources */,
 				CE8B1F7C1FB07A8900A8F9A5 /* Actions.sks in Resources */,
 				CE8B1FAC1FB08F1800A8F9A5 /* bulletSoundEffect.wav in Resources */,
@@ -527,6 +535,7 @@
 				CE8B1FA41FB07A8900A8F9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8B1FA51FB07A8900A8F9A5 /* Build configuration list for PBXNativeTarget "Space InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +544,7 @@
 				CE8B1FA71FB07A8900A8F9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8B1FA81FB07A8900A8F9A5 /* Build configuration list for PBXNativeTarget "Space InvadersUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +553,7 @@
 				CE8B1FAA1FB07A8900A8F9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
