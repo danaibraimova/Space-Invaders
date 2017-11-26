@@ -73,9 +73,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for i in 0...1 {
             let background = SKSpriteNode(imageNamed: "background")
             background.size = self.size
-            background.anchorPoint = CGPoint(x: 0.5, y: 0)
+            background.anchorPoint = CGPoint(x: 0.5, y: 0) // bottom center of the background
             background.position = CGPoint(x: self.size.width/2,
-                                          y: self.size.height * CGFloat(i)) // fully on the screen and the above the scren
+                                          y: self.size.height * CGFloat(i)) // once at the bottom of a screen (covers the entire screen because of anchor), once at the top
             background.zPosition = 0
             background.name = "Background"
             self.addChild(background)
@@ -125,7 +125,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var lastUpdateTime: TimeInterval = 0
     var deltaFrameTime: TimeInterval = 0
-    var amountToMovePerSecond: CGFloat = 600.0
+    var amountToMovePerSecond: CGFloat = 600.0 // 600 points down the screen 
     
     override func update(_ currentTime: TimeInterval) {
         if lastUpdateTime == 0 {
